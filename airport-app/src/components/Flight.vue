@@ -141,8 +141,17 @@ const openFollowModal = () => {
 }
 
 .flight-past {
-  opacity: 0.7;
-  background-color: #f8f9fa;
+  position: relative;
+  background: repeating-linear-gradient(
+    -45deg,
+    #f8f9fa,
+    #f8f9fa 10px,
+    #cfd2d4 10px,
+    #cfd2d4 20px
+  );
+  border: 1px solid #dee2e6;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.05);
+  transform: none !important;
 }
 
 .flight-on-time {
